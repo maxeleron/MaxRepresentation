@@ -1,18 +1,81 @@
-/*all document change BEGIN*/
+/*All document  BEGIN*/
 *{
     text-decoration: none;
     margin: 0px;
     padding: 0px; 
 }
-body{
+#page{
   background:#ffffd1;
+}
+/*All document  END*/
+
+/*Navigation BEGIN*/
+#navBox{
+  margin: 0px auto;
 }
 
 #navigationBar{
   display: block;
   position: absolute;
   width: 100%;
-  height: 140px;
-  background: yellow;
+  height: 54px;
   bottom: 0px;
 }
+
+li {
+  text-align: center;
+}
+/*Navigation END*/
+/*Page header BEGIN*/
+#pageHeader{
+  /*Properties*/
+  /*View*/
+  /*Behaviour*/
+  /*Position*/
+}
+#label{
+
+}
+/*Page header END*/
+/*Page main BEGIN*/
+#pageMain{
+  
+}
+/*Who am I BEGIN*/
+#whoAmI{
+
+}
+/*Who am I END*/
+/*My look BEGIN*/
+#myLook{
+
+}
+/*My look END*/
+/*Max quotes BEGIN*/
+#maxQuotes{
+
+}
+/*Max quotes END*/
+/*Max jokes BEGIN*/
+#maxJokes{
+
+}
+/*Max jokes END*/
+/*Max Music BEGIN*/
+.musicElement{
+  display: block;
+  width: 70%;
+  height: 140px;
+  margin: 0px auto;
+}
+/*Max Music END*/
+/*Contact Max BEGIN*/
+#contactMax{
+
+}
+/*Contact Max END*/
+/*Share box BEGIN*/
+/*Share box END*/
+/*Page main END*/
+/*Footer BEGIN*/
+/*Footer END*/

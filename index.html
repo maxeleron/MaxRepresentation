@@ -6,26 +6,50 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content="Max, Ponomarenko"/>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
    <!--js files included before </body>-->
 </head>
 <body>
-	<nav id="navigationBar">
-		<li><a href=”#”>Target 1</a></li>
-		<li><a href=”#”>Target 2</a></li>
-		<li><a href=”#”>Target 3</a></li>
-		<li><a href=”#”>Target 4</a></li>
-		<li><a href=”#”>Target 5</a></li>
-	</nav>
-	<header>
+	<div id="page">
+	<div id="navBox">
+		<nav id="navigationBar" class="w3-navbar w3-indigo">
+			<li style="width:20%" class="w3-hide-small">&nbsp;</li>
+			<li style="width:12%"><a class="w3-padding-16" href=”#”>Target 1</a></li>
+			<li style="width:12%"><a class="w3-padding-16" href=”#”>Target 2</a></li>
+			<li style="width:12%"><a class="w3-padding-16" href=”#”>Target 3</a></li>
+			<li style="width:12%"><a class="w3-padding-16" href=”#”>Target 4</a></li>
+			<li style="width:12%"><a class="w3-padding-16" href=”#”>Target 5</a></li>
+			<li style="width:20%" class="w3-hide-small">&nbsp;</li>
+		</nav>
+	</div>
+	<header id="pageHeader">
+		<div id="label">Max Representation</div>
 	</header>
-	<main>
-	
-	<iframe width="80%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276563670&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-	<iframe width="80%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262334402&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+	<main id="pageMain">
+		<div id="whoAmI">
+			<a id="expondText"></a>
+		</div>
+		<div id="myLook"></div>
+		<div id="maxQuotes"></div>
+		<div id="maxJokes"></div>
+		<div id="maxMusic">
+			<!--<iframe class="musicElement" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276563670&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			<iframe class="musicElement" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262334402&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			<iframe class="musicElement" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172116053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->
+		</div>
+		<div id="contactMax">
+		</div>
+		<div id="shareBox">
+			<div id="twitterShare" class="shareButton"></div>
+			<div id="vkShare" class="shareButton"></div>
+			<div id="facebookShare" class="shareButton"></div>
+			<div id="googlePShare" class="shareButton"></div>
+		</div>
 	</main>
 	<footer>
 	</footer>
-    <!-- Подключение JS -->
+	</div>
+    <!-- JS files -->
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
