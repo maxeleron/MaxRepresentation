@@ -22,8 +22,13 @@
   bottom: 0px;
 }
 
-li {
+.supportCenterAlign{
+  width: 20%;
+}
+
+.navElement{
   text-align: center;
+  width:12%
 }
 /*Navigation END*/
 /*Page header BEGIN*/
