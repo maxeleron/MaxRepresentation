@@ -4,8 +4,30 @@
     margin: 0px;
     padding: 0px; 
 }
+
+body, html {
+    height: 100%;
+}
+
 #page{
-  background:#ffffd1;
+  /*background:#ffffd1;*/
+}
+.parallax {
+    /* The image used */
+    background-image: url('../images/Parallax_img.JPG');
+
+    /* Full height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+  margin: 0px 0px;
 }
 /*All document  END*/
 
@@ -28,7 +50,7 @@
 
 .navElement{
   text-align: center;
-  width:12%
+  width: 12%;
 }
 /*Navigation END*/
 /*Page header BEGIN*/
@@ -36,6 +58,7 @@
   /*Properties*/
   /*View*/
   /*Behaviour*/
+  opacity: 0.5;
   /*Position*/
 }
 #label{
@@ -48,22 +71,26 @@
 }
 /*Who am I BEGIN*/
 #whoAmI{
-
+  height: 500px;
+  background: darkgoldenrod;
 }
 /*Who am I END*/
 /*My look BEGIN*/
 #myLook{
-
+  height: 500px;
+  background: darkorange;
 }
 /*My look END*/
 /*Max quotes BEGIN*/
 #maxQuotes{
-
+  height: 500px;
+  background: darkviolet;
 }
 /*Max quotes END*/
 /*Max jokes BEGIN*/
 #maxJokes{
-
+  height: 500px;
+  background: dimgray;
 }
 /*Max jokes END*/
 /*Max Music BEGIN*/
@@ -76,7 +103,8 @@
 /*Max Music END*/
 /*Contact Max BEGIN*/
 #contactMax{
-
+  height: 500px;
+  background: gold;
 }
 /*Contact Max END*/
 /*Share box BEGIN*/
