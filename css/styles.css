@@ -4,14 +4,10 @@
     margin: 0px;
     padding: 0px; 
 }
-
-body, html {
-    height: 100%;
-}
-
 #page{
   /*background:#ffffd1;*/
 }
+
 .parallax {
     /* The image used */
     background-image: url('../images/Parallax_img.JPG');
@@ -26,8 +22,19 @@ body, html {
     background-size: cover;
 }
 
-section{
-  margin: 0px 0px;
+.contentSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.label1{
+  margin: 0 !important;
+  padding: 0 !important; 
+}
+
+.label2{
+  margin: 0 !important;
+  padding: 0 !important; 
 }
 /*All document  END*/
 
@@ -57,8 +64,8 @@ section{
 #pageHeader{
   /*Properties*/
   /*View*/
+  opacity: 0.1;
   /*Behaviour*/
-  opacity: 0.5;
   /*Position*/
 }
 #label{
